@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/mainRegistro.css">
+    <title>Registro</title>
+    <script src="./script2.js"></script>
+</head>
+<body>
+    <main id="tela-login">
+        <section class="container">
+            <h1>MEMBERSHIP INFO</h1>
+        
+            <form>
+                <div>
+                    
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                </div>
+                <div>
+                    
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                </div>
+                <div>
+                    
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div>
+                    <div class="telefone-container">
+                        <select id="ddd">
+                            <option value="+55">+55</option>
+                            <option value="+1">+1</option>
+                            <option value="+44">+44</option>
+                            </select>
+                        <input type="number" id="numero-telefone"
+                        placeholder="Phone Number">
+                    </div>
+                    <label for="telefone"></label>
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number" style="flex: 2;">
+                    </div>
+                </div>
+                <div>
+                    
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <button type="submit">Confirm</button>
+            </form>
+
+                <div id="errorMessage" style="color: red; margin-top: 10px; margin-bottom: 2px;"></div>
+                <div id="successMessage" style="color: #6F5FE7; margin-top: 10px; margin-bottom: 2px;"></div>
+
+                <footer> 
+                    <p>Entre utilizando outra conta</p> 
+                    <div id="icons">
+                        <div class="login-direto"><img src="./registro-img/Apple Auth (1).png" alt="Apple"></div>
+                        <div class="login-direto"><img src="/registro-img/Facebook Auth.png" alt="Facebook"></div>
+                        <div class="login-direto"><img src="../registro-img/search.png" alt="Google"></div>
+                    </div>
+                </footer>
+            </tela-cadastro>
+        </section>
+    </main>
+    <script src="./script2.js"></script>
+</body>
+</html>
